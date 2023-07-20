@@ -1,0 +1,37 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "this is the frontend of blog application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolkumarshah/BlogApplication.git"
+  },
+  "author": "Anmol Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anmolkumarshah/BlogApplication/issues"
+  },
+  "homepage": "https://github.com/anmolkumarshah/BlogApplication#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "babel": "^6.23.0",
+    "bootstrap": "^5.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}
